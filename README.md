@@ -23,7 +23,7 @@ $ npm install state-jacket
 
 #### Define states &amp; transitions for a simple [turnstyle](http://en.wikipedia.org/wiki/Finite-state_machine#Example:_a_turnstile).
 
-![Turnstyle](https://raw.github.com/brentburgoyne/state_jacket_js/master/doc/turnstyle.png)
+![Turnstyle](https://raw.github.com/brentburgoyne/state-jacket-js/master/doc/turnstyle.png)
 
 ```js
 var StateJacket = require('state-jacket');
