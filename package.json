@@ -1,0 +1,28 @@
+{
+  "name": "state-jacket-js",
+  "version": "0.0.1",
+  "description": "An intuitive state transition system for JavaScript",
+  "main": "lib/state-jacket.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee -c ./lib/state-jacket.coffee && uglifyjs ./lib/state-jacket.js > ./lib/state-jacket.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brentburgoyne/state-jacket-js.git"
+  },
+  "keywords": [
+    "state"
+  ],
+  "author": "Brent Burgoyne",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "1.x",
+    "uglify-js": "2.x",
+    "mocha": "1.x"
+  }
+}
