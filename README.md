@@ -1,8 +1,8 @@
 # StateJacket JS
 
-Based on [StateJacket](https://github.com/hopsoft/state_jacket) by @hopsoft.
+Based on [StateJacket](https://github.com/hopsoft/state_jacket) by [hopsoft](https://github.com/hopsoft).
 
-## An Intuitive [State Transition System](http://en.wikipedia.org/wiki/State_transition_system)
+## An Intuitive [State Transition System](http://en.wikipedia.org/wiki/State_transition_system) for JavaScript
 
 [State machines](http://en.wikipedia.org/wiki/Finite-state_machine) are awesome
 but can be pretty daunting as a system grows.
