@@ -48,7 +48,6 @@ class StateJacket.Catalog
         unless transition of @states
           throw "#{transition} is not a first class state."
     @isLocked = true
-    Object.freeze(@states) if (Object.freeze)
 
   each: (iterator) ->
     for own state, transitions of @states
