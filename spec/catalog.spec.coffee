@@ -15,9 +15,7 @@ describe 'A StateJacket.Catalog', ->
 
   it 'cannot add a state after locked', ->
     states.lock();
-    addState = ->
-      states.add('baz')
-    expect(addState).toThrow();
+    expect(-> states.add('baz')).toThrow();
 
   it 'should identify a transitioner', ->
     expect(states.isTransitioner('foo')).toBe true
@@ -47,7 +45,5 @@ describe 'A StateJacket.Catalog', ->
 
   it 'cannot lock if all transitioners are not first class states', ->
     states.add 'baz', 'boo'
-    lock = ->
-      states.lock()
-    expect(lock).toThrow()
+    expect(-> states.lock()).toThrow()
 
